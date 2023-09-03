@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.tmp-kity .about {
+	text-align:center;}
+	
+.tmp-kity .about .logo {
+	margin:50px 0 15px;	
+	width:100px;}
+	
+.tmp-kity .about h1 {
+	margin:0;
+	font-size:38px;}
+.tmp-kity .about h2 {
+	margin:10px 0 15px;
+	color:#306998;
+	font-size:22px;
+	font-weight:bold;}
+		
+.tmp-kity .about p {
+	margin:5px 10px 0;
+	color:#333;
+	line-height:25px;}
+	
+.tmp-kity .about .map {
+	width:100%;}	
+	
+.tmp-kity .about .btn {
+	padding-top:16px;
+	padding-bottom:16px;
+	background-color:#090;
+	color:#FFF;
+	border-radius:none;}	
+	
+.tmp-kity .about figure {
+	margin-top:15px;}	
+.tmp-kity .about figure figcaption {
+	padding:5px 0;
+	color:#555;
+	font-size:14px;
+	font-style:italic;
+	line-height:25px;}
+	
+.tmp-kity .about .action i, 
+.tmp-kity .about .action a {
+	color:#0093DD;}

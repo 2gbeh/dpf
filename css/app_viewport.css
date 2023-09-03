@@ -1,0 +1,11 @@
+@charset "utf-8";	
+@media only screen and (max-width:400px) {
+main.compact {
+		width:100%;}	
+.tmp-kity section i {
+	margin-top:30px;}
+.tmp-kity .about .logo {
+	margin-top:30px;	
+	width:80px;}
+}
+

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body.tmp-kity {
+	background-color:#FFF;}
+	
+	
+.tmp-kity header {
+	padding:5px 0;
+	text-align:center;
+	display:block;}	
+.tmp-kity header a img {
+	width:60px;}
+	
+		
+.tmp-kity section {
+	text-align:center;}	
+.tmp-kity section i {
+	margin:50px 0 0;
+	font-size:52px;}
+.tmp-kity section h1 {
+	margin:20px 0 0 0;
+	font-size:28px;}	
+.tmp-kity section h2 {
+	margin:10px 0 20px;
+	color:#090;
+	font-size:20px;}	
+.tmp-kity section p {
+	padding:0 15px;
+	color:#0093DD;
+	text-align:left;
+	font-size:14px;
+	line-height:20px;}
+.tmp-kity section p#alt {
+	color:#555;}	
+.tmp-kity section p a {
+	color:#0093DD;
+	display:inline;}	
+.tmp-kity section img {
+	width:150px;}	
+
+
+.tmp-kity table.flex {
+	border-collapse:separate;
+	border-spacing:10px;}
+.tmp-kity table.flex input {
+	margin:0;	
+	padding:15px 0;
+	text-align:center;}
+	
+
+.tmp-kity table.profile tr {
+	vertical-align:top;}
+.tmp-kity table.profile tr td {
+	padding:15px 10px;
+	color:#000;
+	font-weight:normal;
+	border-bottom:solid thin #CCC;}
+.tmp-kity table.profile tr:first-child td {
+	padding-top:0;}
+.tmp-kity table.profile tr:last-child td {	
+	border-bottom:non;}
+	
+	
+.tmp-kity table.profile i {
+	color:#555;}
+.tmp-kity table.profile small {
+	margin-top:5px;
+	color:#999;
+	font-size:14px;
+	font-weight:normal;	
+	display:block;}			
+	
+	
+.tmp-kity figure {
+	margin:40px 0 20px;
+	text-align:center;}
+.tmp-kity figure div {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+	width:120px;
+	height:120px;
+	border-radius:100%;
+	box-shadow:0 1px 2px 0 #999;
+	display:inline-block;}
+.tmp-kity figure figcaption {
+	padding:15px 0 0;
+	color:#0093DD;
+	font-size:16px;} 	
+	
+	
+.tmp-kity .lnk {
+	color:#D81B60;
+	text-align:center;
+	text-decoration:underlin;
+	font-weight:bold;
+	display:block;}	
+		
+	
+.tmp-kity foot, 
+.tmp-kity footer {
+	padding:40px 10px 15px;	
+	background-color:#EE;
+	width:100%;
+	text-align:center;
+	text-shadow:1px 1px 0 #FFF;
+	font-size:14px;
+	display:block;}
+.tmp-kity foote {
+	position:absolute;
+	bottom:0;}
+	

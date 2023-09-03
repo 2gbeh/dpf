@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.tmp-kity table.excel {
+	background-color:#FFF;
+	font-size:14px;	
+	border-collapse:collapse;
+	box-shadow:0 2px 4px 0 #DDD;}
+.tmp-kity table.excel tr {
+	vertical-align:top;}		
+.tmp-kity table.excel tr th {
+	padding:15px 10px;
+	text-align:left;
+	border-bottom:solid #DDD;}
+.tmp-kity table.excel tr th a, 
+.tmp-kity table.excel tr td a {
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline;}	
+.tmp-kity table.excel tr td {
+	padding:10px 10px;
+	border:none;
+	border-bottom:solid thin #DDD;}
+.tmp-kity table.excel tr th[nw], 
+.tmp-kity table.excel tr td[nw] {
+	white-space:nowrap;}
+.tmp-kity table.excel tr th[ar], 
+.tmp-kity table.excel tr td[ar] {
+	text-align:right;}		
+.tmp-kity table.excel tr:hover td {
+	background-color:#EEE;}

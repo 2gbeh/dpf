@@ -1,0 +1,107 @@
+<!-- 7=>desc,8=>theme,11=>title,18=>bg,28=>logo alt color,45=>led,53=>led focus,69=>logo,69=>logo alt -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="Powered by D-Peterson Foundation"> 
+	<meta name="theme-color" content="#D8E262" />  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+	<link href="favicon.png" type="image/png" sizes="32x32" rel="icon" />  
+  <title>Ika Python Bootcamp '21 | DPFIIT.org</title>
+  <style type="text/css">
+		* {
+			padding:0;
+			margin:0;
+			font-family:Verdana, Geneva, sans-serif;			
+			box-sizing:content-box;}
+		body {
+			background-color:#000;			
+			text-align:center;}
+		main, 
+		footer {
+			position:absolute;			
+			width:100%;}
+		main {
+			top:250px;}
+		main a {
+			padding:10px;
+			color:#D8E262;
+			text-transform:uppercase;
+			text-decoration:none;
+			font-size:32px;
+			font-weight:bold;}	
+		main img {
+			width:300px;}
+		footer {
+			bottom:25px;}	
+		footer ul {
+			padding:0;
+			margin:0;
+			list-style-type:none;}
+		footer ul li {		
+			display:inline-block;}
+		footer ul li a {
+			margin:0 4px;
+			background-color:#fff;
+			width:15px;
+			height:15px;
+			border-radius:100%;
+			-webkit-transition:background-color 0.2s; /* Safari */
+			transition:background-color 0.2s;
+			display:block;}
+		footer ul li a.focus {
+			background-color:#D8E262;}	
+		@media only screen and (max-width: 600px) {
+			main {		
+				top:120px;}
+			main img {
+				width:220px;}			
+			footer ul li a {
+				margin:0 2px;
+				width:12px;
+				height:12px;}
+		}		
+	</style>
+</head>
+<body>
+  <main>
+    <a href="app_about.php">
+      <img src="logo.png" alt="D-PETERSON INSTITUTE OF INFORMATION TECHNOLOGY (DPFIIT)" title="Skip" />
+    </a>
+  </main>
+  <footer>
+    <ul>
+      <li><a>&nbsp;</a></li>
+      <li><a>&nbsp;</a></li>
+      <li><a>&nbsp;</a></li>
+      <li><a>&nbsp;</a></li>      
+    </ul>
+  </footer>
+<script type="text/javascript">
+	var dots, href, page, i = 0;
+	var splash = setInterval(appBuffer,1000);
+	function appBuffer () 
+	{
+		dots = document.querySelectorAll('footer ul li a');
+		if (i < dots.length) {				
+			console.log(i);				
+			dots[i].setAttribute('class','focus');
+			i++;		
+		}
+		else {
+			href = document.querySelectorAll('main a');
+			page = href[0].getAttribute('href');			
+			if (page.substr(0,1) == '#') {			
+				i = 0;
+				for (var j = 0; j < dots.length; j++)
+					dots[j].removeAttribute('class');
+			}
+			else {
+				location.href = page;
+			}
+		}
+	}	
+</script>	
+</body>
+</html>
